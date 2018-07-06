@@ -1,0 +1,48 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add babel-core -D
+
+PATH: 
+  /usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/brianliotti/jrs/counter/node_modules/.bin:/Users/brianliotti/jrs/counter/node_modules/.bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  8.11.2
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/Users/brianliotti/Library/Caches/Yarn/v1/npm-browserslist-3.2.8-b0005361d6471f0f5952797a76fc985f1f978fc6/README.md' -> '/Users/brianliotti/jrs/counter/node_modules/babel-preset-env/node_modules/browserslist/README.md'
+
+npm manifest: 
+  {
+  	"name": "counter",
+  	"version": "1.0.0",
+  	"description": "",
+  	"main": "index.js",
+  	"scripts": {
+  		"test": "echo \"Error: no test specified\" && exit 1",
+  		"start": "parcel public/index.html"
+  	},
+  	"keywords": [],
+  	"author": "",
+  	"license": "ISC",
+  	"dependencies": {
+  		"react": "^16.4.1",
+  		"react-dom": "^16.4.1"
+  	},
+  	"devDependencies": {
+  		"babel-plugin-transform-class-properties": "^6.24.1",
+  		"babel-preset-env": "^1.7.0",
+  		"babel-preset-react": "^6.24.1",
+  		"parcel-bundler": "^1.9.4"
+  	}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
